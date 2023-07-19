@@ -107,7 +107,7 @@ font-weight: 700;
 }
 /* main section style */
 .online-games{
-
+padding: 120px 240px;
 }
 .game-title{
 
@@ -136,8 +136,6 @@ font-weight: 700;
     display: flex;
     justify-content: space-evenly;
     background: #FFF;
-    padding: 48px 240px 0px 40px;
-  
 }
 .onlin-img figcaption{
     color: #534C64;
@@ -153,4 +151,25 @@ font-weight: 700;
     height: 400px;
     border-radius: 16px;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+/* play-games styale */
+.play-games{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.game-img{
+width: 100%;
+height: 100%;
+}
+.game-description h2{
+    font-size: 48px;
+    font-weight: 700;}
+.game-description p{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+ 
 }
