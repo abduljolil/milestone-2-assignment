@@ -105,3 +105,30 @@ font-weight: 700;
     border: 0px; 
     background: #4EC5F7;
 }
+/* main section style */
+.online-games{
+
+}
+.game-title{
+
+}
+.game-title h2{
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;}
+.title-g{
+     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+.game-title p{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+     margin: 0px 0px 54px 0px;
+}
