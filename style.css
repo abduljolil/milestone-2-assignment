@@ -1,0 +1,107 @@
+/* work sans font from google fonts */
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+</style>
+*{
+    font-family: 'Open Sans', sans-serif;
+     font-family: 'Work Sans', sans-serif;
+}
+/* header style */
+ .header{
+    display: flex;
+    justify-content: space-between;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+      padding:40px 240px;
+      align-items: center;
+}
+.header-title{
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+}
+.img{
+    width: 86.041px;
+    height: 40px;
+}
+.primary-color{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.title{
+font-size: 45px;
+font-weight: 700;
+
+}
+.title-description > ul{
+    display: flex;
+    align-items: center;
+   }
+.title-description > ul > li{
+    list-style: none;
+    margin-right:2rem;
+    color: #3C354F;
+    font-size: 1rem;
+    font-weight: 500;
+    }
+.icon{
+    width: 262px;
+    height: 56px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 17px 24px;
+    }
+/* bennar style  */
+.bennar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background: #FFF;
+    height: 100%;
+    padding: 0px 225px 0px 174px;
+}
+.bennar-title{
+ 
+}
+.bennar-title h2{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+}
+ .title1{
+    margin-top: 0px;
+    font-size: 95px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.bennar p{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 17px;
+}
+.primary-btn{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 40px;
+    gap: 10px;
+    border-radius: 48px;
+    border: 0px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+.btn-2{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 40px;
+    gap: 10px;
+    border-radius: 48px;
+    border: 0px; 
+    background: #4EC5F7;
+}
