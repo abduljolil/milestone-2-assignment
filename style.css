@@ -169,36 +169,48 @@ padding: 19px 240px 0px 68px;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 /* play-games styale */
-.play-games{
+.play-games-container{
     display: flex;
+    justify-content: center;
     align-items: center;
-    
-
+    width: 1920p
+    height: 5927px;
+    padding: 120px 240px;
 }
+
 .img-1{
     width: 710px;
     height: 650px;
-    position:relative;
     border-radius: 8px;
     background: url(<path-to-image>), lightgray 0px -18.568px / 100% 146.779% no-repeat;
 }
+.game-img{
+    display: flex;
+}
 .img-2{
-    display:flex;
-    justify-content: flex-end;
+    position: relative;
+    top: 400px;
+    right: 160px;
     width: 318px;
     height: 365px;
-    top: 100px;
     border-radius: 8px;
     border: 10px solid #FFF;
     background: url(<path-to-image>), lightgray -7.209px 0px / 114.78% 100% no-repeat;
 }
-
+.game-description{
+    margin-left: 250px;
+}
 .game-description h2{
     font-size: 48px;
     font-weight: 700;}
+.play-games-container .play{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .game-description p{
     color: #534C64;
     font-size: 18px;
     font-weight: 400;
- 
 }
