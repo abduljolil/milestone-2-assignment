@@ -241,6 +241,16 @@ padding: 19px 240px 0px 68px;
     border-radius: 50px;
     background: #FFF;
 }
+ .card:hover {
+    border:2px solid blue;
+    border-radius: 50px;
+    background: #FFF;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+        
+}
 .card-container img{
     width: 60px;
     height: 60px;
