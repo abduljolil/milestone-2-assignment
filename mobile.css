@@ -1,0 +1,11 @@
+/* responsive of media queary */
+@media screen and (max-width: 425px) {
+    header{
+        padding: 20px;
+    }
+    .nav-container , .nav-item-container , .bennar-container{
+        flex-direction: column;
+    }
+  /* main section of  */\
+  
+}
