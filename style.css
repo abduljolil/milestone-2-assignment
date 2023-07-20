@@ -136,9 +136,7 @@ padding: 19px 240px 0px 68px;
 }
 /* main section style */
 .online-games{
-    max-width: 1920px;
     background: #FFF;
-    padding: 48px 240px 120px 240px;
 }
 .game-title{
   text-align: center;
@@ -160,11 +158,14 @@ padding: 19px 240px 0px 68px;
     font-size: 18px;
     font-weight: 400;
     text-align: center;
-     margin: 0px 0px 54px 0px;
+    margin: 0px 0px 54px 0px;
 }
 .onlin-img{
-    display: flex;
-    gap:24px;
+    display: grid;
+    grid-template-columns: repeat(4,342px);
+    grid-gap: 24px;
+    margin-left:216px;
+ 
 }
 .onlin-img figcaption{
     color: #534C64;
@@ -185,20 +186,20 @@ padding: 19px 240px 0px 68px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1920p
-    height: 5927px;
-    padding: 120px 240px;
+    margin-top:120px;
+    margin-bottom:120px;
+    margin-left: 240px;
 }
-
+.game-img{
+    display: flex;
+}
 .img-1{
     width: 710px;
     height: 650px;
     border-radius: 8px;
     background: url(<path-to-image>), lightgray 0px -18.568px / 100% 146.779% no-repeat;
 }
-.game-img{
-    display: flex;
-}
+
 .img-2{
     position: relative;
     top: 400px;
@@ -210,7 +211,7 @@ padding: 19px 240px 0px 68px;
     background: url(<path-to-image>), lightgray -7.209px 0px / 114.78% 100% no-repeat;
 }
 .game-description{
-    margin-left: 250px;
+    margin-right:240px;
 }
 .game-description h2{
     font-size: 48px;
@@ -233,7 +234,8 @@ padding: 19px 240px 0px 68px;
     justify-content: center;
     align-content:center;
      grid-gap: 44px;
-    margin: 120px auto;
+     margin-top: 260px;
+     margin-bottom: 120px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 .card-container .card{
